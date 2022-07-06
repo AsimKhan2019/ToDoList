@@ -19,7 +19,7 @@ body {
 }
 
 .todo {
-  max-width: 650px;
+  max-width: 500px;
   background-color: #ffff;
   box-shadow: 3px 3px 15px rgba(128, 127, 127, 0.5);
   margin: 150px auto;
@@ -48,6 +48,7 @@ i {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  padding-left: 30px;
   padding: 10px 0;
   border-bottom: 1px solid rgb(212, 212, 212);
 }
