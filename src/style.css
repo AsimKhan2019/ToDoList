@@ -70,7 +70,7 @@ i {
 .clear-all {
   height: 40px;
   border: none;
-  background-color: #fff;
+  background-color: rgb(206, 203, 203);
   font-size: 15px;
   width: 100%;
 }
