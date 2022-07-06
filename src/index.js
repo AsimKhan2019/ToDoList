@@ -1,4 +1,4 @@
-import displayData from "./modules/displayData.js";
+import displayTodos from "./modules/displayTodos.js";
 import "./style.css";
 
-displayData();
+displayTodos();
