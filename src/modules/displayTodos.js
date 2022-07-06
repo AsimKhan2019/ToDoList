@@ -1,13 +1,13 @@
-import data from "./Todos.js";
+import data from './Todos.js';
 
-const Tasks = document.querySelector(".todoTasks");
+const Tasks = document.querySelector('.todoTasks');
 const displayTodos = () => {
-  Tasks.innerHTML = "";
+  Tasks.innerHTML = '';
   data.forEach((todo) => {
-    const task = document.createElement("div");
-    task.classList.add("task");
+    const task = document.createElement('div');
+    task.classList.add('task');
     task.innerHTML = `
-      <input type='checkbox' ${todo.completed ? "checked" : ""}>
+      <input type='checkbox' ${todo.completed ? 'checked' : ''}>
       <span class='description'>${todo.description}</span>
        <i class='fa-solid fa-ellipsis-vertical'></i>
     `;
