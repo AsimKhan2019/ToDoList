@@ -15,7 +15,6 @@ body {
   display: flex;
   width: 100%;
   border-bottom: 1px solid rgb(212, 212, 212);
-  text-decoration: italic;
 }
 
 .todo {
@@ -30,7 +29,6 @@ body {
   margin: 0 auto;
   border: none;
   padding: 10px;
-  text-decoration: italic;
 }
 
 i {
@@ -48,7 +46,6 @@ i {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  padding-left: 30px;
   padding: 10px 0;
   border-bottom: 1px solid rgb(212, 212, 212);
 }
@@ -65,7 +62,7 @@ i {
 .dots {
   font-size: 20px;
   margin-right: 10px;
-  color: rgb(158, 157, 157)
+  color: rgb(158, 157, 157);
 }
 
 .clear-all {
