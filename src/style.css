@@ -1,0 +1,76 @@
+body {
+  background-color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.todo-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.inputField {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  text-decoration: italic;
+}
+
+.todo {
+  max-width: 650px;
+  background-color: #ffff;
+  box-shadow: 3px 3px 15px rgba(128, 127, 127, 0.5);
+  margin: 150px auto;
+}
+
+.add {
+  width: 95%;
+  margin: 0 auto;
+  border: none;
+  padding: 10px;
+  text-decoration: italic;
+}
+
+i {
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.fa-solid .fas {
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.description {
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+:focus {
+  outline: none;
+}
+
+.dots {
+  font-size: 20px;
+  margin-right: 10px;
+  color: rgb(158, 157, 157)
+}
+
+.clear-all {
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  font-size: 15px;
+  width: 100%;
+}
