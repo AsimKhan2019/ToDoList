@@ -14,7 +14,6 @@ html {
   max-width: 500px;
   background-color: white;
   box-shadow: 3px 3px 20px rgba(90, 90, 90, 0.5);
-  border: 1px solid rgba(56, 56, 56, 0.5);
 }
 
 .list-head {
