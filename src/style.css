@@ -1,74 +1,93 @@
-body {
-  background-color: #fff;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* CSS */
+
+html {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.todo-title {
-  display: flex;
+#list-container {
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 15px;
-  border-bottom: 1px solid rgb(212, 212, 212);
-}
-
-.inputField {
-  display: flex;
-  width: 100%;
-  border-bottom: 1px solid rgb(212, 212, 212);
-}
-
-.todo {
-  max-width: 500px;
-  background-color: #ffff;
-  box-shadow: 3px 3px 15px rgba(128, 127, 127, 0.5);
   margin: 150px auto;
+  border: 1px solid rgba(220, 220, 220, 1);
+  width: 500px;
+  max-width: 500px;
+  background-color: white;
+  box-shadow: 3px 3px 20px rgba(90, 90, 90, 0.5);
 }
 
-.add {
-  width: 95%;
-  margin: 0 auto;
+.list-head {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 2px solid rgb(220, 220, 220, 1);
+}
+
+#icon {
+  color: gray;
+}
+
+.input {
   border: none;
-  padding: 10px;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  font-style: italic;
+}
+
+.list {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(220, 220, 220, 1);
+  border-top: 1px solid rgba(220, 220, 220, 1);
+  padding: 5px;
+}
+
+.list p {
+  margin-left: 1rem;
 }
 
 i {
-  font-size: 15px;
-  margin-right: 10px;
+  margin-left: auto;
+  color: gray;
+}
+
+.hide {
+  display: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(220, 220, 220, 1);
+  background-color: rgb(238, 238, 238);
+}
+
+button {
+  border: none;
+  color: gray;
+  font-size: 1rem;
   cursor: pointer;
 }
 
-.fa-solid .fas {
-  font-weight: 600;
-  margin-top: 5px;
+.edit {
+  background-color: rgb(242, 173, 245);
 }
 
-.task {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 10px 0;
-  border-bottom: 1px solid rgb(212, 212, 212);
+.edit input {
+  border: none;
+  background-color: rgb(242, 173, 245);
+  font-size: 1rem;
+  margin-left: 1rem;
 }
 
-.description {
-  font-size: 15px;
-  flex-grow: 1;
-}
-
-:focus {
+input:focus {
   outline: none;
 }
 
-.dots {
-  font-size: 20px;
-  margin-right: 10px;
-  color: rgb(158, 157, 157);
-}
-
-.clear-all {
-  height: 40px;
-  border: none;
-  background-color: rgb(245, 241, 241);
-  font-size: 15px;
-  width: 100%;
+.strike {
+  text-decoration: line-through;
 }
