@@ -2,13 +2,13 @@
 
 html {
   box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #list-container {
   flex-direction: column;
   align-items: center;
-  margin:150px auto;
+  margin: 150px auto;
   border: 1px solid rgba(220, 220, 220, 1);
   width: 500px;
   max-width: 500px;
@@ -24,7 +24,6 @@ html {
   align-items: center;
   padding: 0 1rem;
   border-bottom: 2px solid rgb(220, 220, 220, 1);
-
 }
 
 #icon {
@@ -76,12 +75,12 @@ button {
 }
 
 .edit {
-  background-color: rgba(255, 235, 205);
+  background-color: rgb(242, 173, 245);
 }
 
 .edit input {
   border: none;
-  background-color: rgba(255, 235, 205);
+  background-color: rgb(242, 173, 245);
   font-size: 1rem;
   margin-left: 1rem;
 }
