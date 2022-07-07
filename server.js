@@ -1,11 +1,11 @@
 /* eslint import/no-extraneous-dependencies: ["error", {"peerDependencies": true}] */
 
-const express = require("express");
-const webpack = require("webpack");
-const webpackDevMiddleware = require("webpack-dev-middleware");
+const express = require('express');
+const webpack = require('webpack');
+const webpackDevMiddleware = require('webpack-dev-middleware');
 
 const app = express();
-const config = require("./webpack.config.js");
+const config = require('./webpack.config.js');
 
 const compiler = webpack(config);
 
@@ -14,7 +14,7 @@ const compiler = webpack(config);
 app.use(
   webpackDevMiddleware(compiler, {
     publicPath: config.output.publicPath,
-  })
+  }),
 );
 
 // Serve the files on port 3000.
