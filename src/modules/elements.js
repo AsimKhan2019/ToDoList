@@ -5,7 +5,8 @@ const addList = document.querySelector('input[name=addtext]');
 const editList = document.querySelector('input[name=edittext]');
 const clear = document.getElementById('clear');
 const reloadBtn = document.querySelector('.reload-icon');
+const addIcon = document.querySelector('#add-icon');
 
 export {
-  listBody, reloadBtn, editList, checkbox, taskDescription, addList, clear,
+  listBody, addIcon, reloadBtn, editList, checkbox, taskDescription, addList, clear,
 };

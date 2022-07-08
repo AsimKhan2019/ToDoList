@@ -112,5 +112,10 @@ input:focus {
   transform: rotate(180deg);
 }
 
-
-
+.input-container {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
