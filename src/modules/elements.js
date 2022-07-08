@@ -4,7 +4,8 @@ const taskDescription = document.querySelector('.taskdescription');
 const addList = document.querySelector('input[name=addtext]');
 const editList = document.querySelector('input[name=edittext]');
 const clear = document.getElementById('clear');
+const reloadBtn = document.querySelector('.reload-btn');
 
 export {
-  listBody, editList, checkbox, taskDescription, addList, clear,
+  listBody, reloadBtn, editList, checkbox, taskDescription, addList, clear,
 };

@@ -45,6 +45,11 @@ const refresh = () => {
 };
 refresh();
 
+// reload a div with the list of tasks
+Element.reloadBtn.addEventListener('click', () => {
+  refresh();
+});
+
 // Event Listeners
 Element.addList.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') {
