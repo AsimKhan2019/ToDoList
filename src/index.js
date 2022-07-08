@@ -47,7 +47,9 @@ refresh();
 
 // reload a div with the list of tasks
 Element.reloadBtn.addEventListener('click', () => {
-  refresh();
+  // refresh();
+  // position tasks in descending order
+  newTask.listArray.sort((a, b) => b.index - a.index);
 });
 
 // Event Listeners
