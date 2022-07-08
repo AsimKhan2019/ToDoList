@@ -47,9 +47,14 @@ refresh();
 
 // reload a div with the list of tasks
 Element.reloadBtn.addEventListener('click', () => {
-  // refresh();
-  // position tasks in descending order
-  newTask.listArray.sort((a, b) => b.index - a.index);
+//  hide list for 1 second and show again
+  Element.reloadBtn.classList.add('rotate');
+  Element.listBody.classList.toggle('hide');
+  setTimeout(() => {
+    Element.reloadBtn.classList.remove('rotate');
+    Element.listBody.classList.toggle('hide');
+  }, 1000);
+  refresh();
 });
 
 // Event Listeners
