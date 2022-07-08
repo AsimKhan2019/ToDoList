@@ -92,22 +92,6 @@ input:focus {
   text-decoration: line-through;
 }
 
-/* add onclick rotate animation to reload icon*/
-.reloadBtn:hover {
-  transform: rotate(180deg);
-}
-
-/* style refresh button */
-.reloadBtn {
-  background-color: rgb(242, 173, 245);
-  border: none;
-  color: gray;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 1rem;
-}
-
-/* add animation */
 .rotate {
   transform: rotate(180deg);
 }
