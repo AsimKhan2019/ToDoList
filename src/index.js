@@ -1,7 +1,7 @@
 // css files here
 import './style.css';
-import TodoList from './modules/addTask.js';
-import * as Element from './modules/elements.js';
+import TodoList from './modules/addTodo.js';
+import * as Element from './modules/dom.js';
 
 const newTask = new TodoList();
 
@@ -47,7 +47,6 @@ refresh();
 
 // reload a div with the list of tasks
 Element.reloadBtn.addEventListener('click', () => {
-//  hide list for 1 second and show again
   Element.reloadBtn.classList.add('rotate');
   Element.listBody.classList.toggle('hide');
   setTimeout(() => {
