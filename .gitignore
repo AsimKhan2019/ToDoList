@@ -6,3 +6,6 @@ node_modules/
 
 #ignore vscode files 
 .vscode 
+
+#ignore coverage
+coverage/

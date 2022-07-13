@@ -40,37 +40,3 @@ describe('Remove a task', () => {
     expect(todolist.listArray.length).toBe(0);
   });
 });
-
-// describe('Clear All Completed Tasks', () => {
-//   const titleOne = 'Task two';
-//   const titleTwo = 'Task three';
-//   const titleFour = 'Task Four';
-//   test('Clear All Completed Tasks', () => {
-//     todolist.addTask(titleOne);
-//     todolist.addTask(titleTwo);
-//     todolist.addTask(titleFour);
-
-//     const { length } = todolist.listArray;
-
-//     expect(length).toBe(3);
-//   });
-
-//   test('Mark Some Tasks as completed and remove them', () => {
-//     todolist.addTask(titleOne);
-//     todolist.addTask(titleTwo);
-//     todolist.addTask(titleFour);
-
-//     const { length } = todolist.listArray;
-
-//     expect(length).toBe(6);
-//   },
-//   () => {
-//     // mark task as Completed
-//     todolist.listArray[0].completed = true;
-//     todolist.listArray[1].completed = true;
-//     // remove completed tasks
-//     todolist.clearCompleted();
-//     const { length } = todolist.listArray;
-//     expect(length).toBe(4);
-//   });
-// });
