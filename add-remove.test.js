@@ -3,7 +3,6 @@
  */
 
 import TodoList from './src/modules/addTodo.js';
-import LocalStorage from './mocks/LocalStorage.js';
 
 document.body.innerHtml = `<main>
 <div id="list-container">
