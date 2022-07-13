@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657714771284" clover="3.2.0">
-  <project timestamp="1657714771285" name="All files">
+<coverage generated="1657717179462" clover="3.2.0">
+  <project timestamp="1657717179463" name="All files">
     <metrics statements="33" coveredstatements="11" conditionals="8" coveredconditionals="2" methods="20" coveredmethods="7" elements="61" coveredelements="20" complexity="0" loc="33" ncloc="33" packages="2" files="2" classes="2"/>
     <package name="mocks">
       <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="1"/>
-      <file name="LocalStorage.js" path="C:\Users\user\Desktop\Workspace\Microverse\Todo-List\mocks\LocalStorage.js">
+      <file name="LocalStorage.js" path="/home/saidlaasri/Desktop/github/Todo-List/mocks/LocalStorage.js">
         <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -15,7 +15,7 @@
     </package>
     <package name="src.modules">
       <metrics statements="28" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="15" coveredmethods="6"/>
-      <file name="addTodo.js" path="C:\Users\user\Desktop\Workspace\Microverse\Todo-List\src\modules\addTodo.js">
+      <file name="addTodo.js" path="/home/saidlaasri/Desktop/github/Todo-List/src/modules/addTodo.js">
         <metrics statements="28" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="15" coveredmethods="6"/>
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="8" type="stmt"/>

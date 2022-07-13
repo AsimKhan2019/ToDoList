@@ -1,5 +1,5 @@
 TN:
-SF:mocks\LocalStorage.js
+SF:mocks/LocalStorage.js
 FN:2,(anonymous_0)
 FN:6,(anonymous_1)
 FN:10,(anonymous_2)
@@ -25,7 +25,7 @@ BRF:2
 BRH:0
 end_of_record
 TN:
-SF:src\modules\addTodo.js
+SF:src/modules/addTodo.js
 FN:2,(anonymous_0)
 FN:6,(anonymous_1)
 FN:10,(anonymous_2)
