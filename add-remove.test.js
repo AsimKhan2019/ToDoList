@@ -22,7 +22,6 @@ document.body.innerHtml = `<main>
         </div>
     </div>`;
 
-global.localStorage = new LocalStorage();
 const todolist = new TodoList();
 
 // test adding a new task to localStorage using describe
