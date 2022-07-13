@@ -110,3 +110,22 @@ Element.clear.addEventListener('click', () => {
   newTask.clearCompleted();
   refresh();
 });
+
+// test editing a task description in localStorage using describe
+// describe('Edit', () => {
+//     const title = {
+//         description: 'test',
+//         completed: false,
+//     };
+//     todolist.addTask(title);
+//     const index = 0;
+//     const textInsterted = 'Task';
+
+//     // edit title
+//     test('edit a task', () => {
+//         todolist.editTask(index, textInsterted);
+//         expect(todolist.listArray[index].description).toBe(textInsterted);
+//     }
+//     );
+// }
+// );

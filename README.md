@@ -7,8 +7,6 @@
 - CSS
 - Javascript
 
-
-
 ## Live Demo
 
 [Live Demo Link]()
@@ -29,6 +27,12 @@ After cloning the repository, open it on VS code or any code editor of your your
 - GitHub: [@githubhandle](https://github.com/TekyRey)
 - Twitter: [@twitterhandle](https://twitter.com/RehemaMwaka1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/mwlite/in/rehema-mwaka-48a1801ab)
+
+👤 **Said laasri**
+
+- GitHub: [@Said-laasri](https://github.com/Said-laasri)
+- Twitter: [@saidlaasr](https://twitter.com/saidlaasr)
+- LinkedIn: [SAID LAASRI](https://www.linkedin.com/in/said-laasri-8a4367172/)
 
 ## 🤝 Contributing
 
