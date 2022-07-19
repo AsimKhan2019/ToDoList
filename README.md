@@ -1,6 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Todo List
 
+A great exercise that lists the tasks and assignments and populates the list. It also helps to delete and edit the assignment or task in the list.
+
 ## Built With
 
 - HTML
